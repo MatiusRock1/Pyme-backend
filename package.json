@@ -1,0 +1,29 @@
+{
+  "name": "pyme-backend",
+  "version": "1.0.0",
+  "description": "Este proyecto se crea para realizar una solucion para una pyme a partir de lo aprendido",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "mime-types": "^2.1.34",
+    "mongoose": "^6.1.8",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatiusRock1/Pyme-backend.git"
+  },
+  "author": "MatiusRock <jorgeluistrujilllo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatiusRock1/Pyme-backend/issues"
+  },
+  "homepage": "https://github.com/MatiusRock1/Pyme-backend#readme"
+}
