@@ -14,7 +14,8 @@
     "nodemon": "^2.0.15"
   },
   "scripts": {
-    "dev": "nodemon app.js"
+    "dev": "set NODE_ENV=develoment&& nodemon app.js",
+    "prod": "set NODE_ENV=production&& nodemon app.js"
   },
   "repository": {
     "type": "git",

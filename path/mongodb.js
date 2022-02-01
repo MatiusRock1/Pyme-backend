@@ -4,7 +4,7 @@ mongoose.Promise = global.Promise;
 
 module.exports = connectDataBase = async () => {
   try {
-    const databaseConnection = await mongoose.connect('mongodb+srv://MatiusRock:5wyavFkbSmPyfvcF@cluster0.ai7tj.mongodb.net/Pyme?retryWrites=true&w=majority', {
+    const databaseConnection = await mongoose.connect(process.env.MONGO_DB, {
       useUnifiedTopology: true,
       useNewUrlParser: true,
       useCreateIndex: true,
