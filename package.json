@@ -15,7 +15,8 @@
   },
   "scripts": {
     "dev": "set NODE_ENV=develoment&& nodemon app.js",
-    "prod": "set NODE_ENV=production&& nodemon app.js"
+    "debug": "set NODE_ENV=develoment&& node --inspect app.js",  
+    "prod": "set NODE_ENV=production&& pm2 start app.js"
   },
   "repository": {
     "type": "git",
